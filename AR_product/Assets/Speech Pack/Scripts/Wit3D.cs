@@ -48,13 +48,20 @@ public partial class Wit3D : MonoBehaviour {
 	string url = "https://api.wit.ai/speech?v=20180206";
 	string token = "GS6J4YIN3645G6I3SDCJBE76PGHWTM7F";
 
+	// //stami API access parameters
+	// string url = "https://api.wit.ai/speech?v=20200704";
+	// string token = "ODNKQNSIRFWU4IZA7Q2T4BFFP5244ULT";
+
+	// string url = "https://api.wit.ai/speech?v=20200704";
+	//  string token = "SL73XDQENGCYX57T556HOBUJ7KJ5PMZU";
+
 	//Custom 1
  	// GameObject to use as a default spawn point
  	private bool isRecording = false;
 	private bool pressedButton = false;
 	public Text myResultBox;
-	public VideoPlayer vidScreen;
-	public GameObject vidCanvas;
+	//public VideoPlayer vidScreen;
+	//public GameObject vidCanvas;
 
 	// Use this for initialization
 	void Start () {
@@ -66,7 +73,7 @@ public partial class Wit3D : MonoBehaviour {
 
 		// set samplerate to 16000 for wit.ai
 		samplerate = 16000;
-		vidScreen.GetComponent<VideoPlayer> ();
+		//vidScreen.GetComponent<VideoPlayer> ();
 	}
 
 	//Custom 2
@@ -82,13 +89,13 @@ public partial class Wit3D : MonoBehaviour {
 	}
 	//Custom 3
 	public void playVideo(){
-		vidScreen.Play ();
- 		vidCanvas.SetActive (false);
+		//vidScreen.Play ();
+ 		//vidCanvas.SetActive (false);
 	}
 	//Custom 4
 	public void stopVideo(){
-		vidScreen.Stop ();
-		vidCanvas.SetActive (true);
+		//vidScreen.Stop ();
+		//vidCanvas.SetActive (true);
 	}
 
 	// Update is called once per frame

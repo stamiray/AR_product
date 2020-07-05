@@ -1,0 +1,163 @@
+Result: {
+  "entities": {
+    "drivers_door:drivers_door": [
+      {
+        "body": "drivers door",
+        "confidence": 0.9897,
+        "end": 21,
+        "entities": [],
+        "id": "766043700600409",
+        "name": "drivers_door",
+        "role": "drivers_door",
+        "start": 9,
+        "type": "value",
+        "value": "drivers door"
+      }
+    ]
+  },
+  "intents": [
+    {
+      "confidence": 0.9989,
+      "id": "276920956761863",
+      "name": "open"
+    }
+  ],
+  "text": "open the drivers door",
+  "traits": {}
+}
+
+
+Result: {
+  "entities": {},
+  "intents": [
+    {
+      "confidence": 0.9803,
+      "id": "276920956761863",
+      "name": "open"
+    }
+  ],
+  "text": "open",
+  "traits": {}
+}
+
+
+Result: {
+  "entities": {
+    "drivers_door:drivers_door": [
+      {
+        "body": "drivers door",
+        "confidence": 0.9884,
+        "end": 22,
+        "entities": [],
+        "id": "766043700600409",
+        "name": "drivers_door",
+        "role": "drivers_door",
+        "start": 10,
+        "type": "value",
+        "value": "drivers door"
+      }
+    ]
+  },
+  "intents": [
+    {
+      "confidence": 0.9966,
+      "id": "200399844492202",
+      "name": "close"
+    }
+  ],
+  "text": "close the drivers door",
+  "traits": {}
+}
+
+
+Result: {
+  "entities": {
+    "hood:hood": [
+      {
+        "body": "hood",
+        "confidence": 0.9771,
+        "end": 14,
+        "entities": [],
+        "id": "3315961071756490",
+        "name": "hood",
+        "role": "hood",
+        "start": 10,
+        "type": "value",
+        "value": "hood"
+      }
+    ]
+  },
+  "intents": [
+    {
+      "confidence": 0.9957,
+      "id": "200399844492202",
+      "name": "close"
+    }
+  ],
+  "text": "close the hood",
+  "traits": {}
+}
+
+
+Result: {
+  "entities": {
+    "hood:hood": [
+      {
+        "body": "engine",
+        "confidence": 0.8762,
+        "end": 16,
+        "entities": [],
+        "id": "3315961071756490",
+        "name": "hood",
+        "role": "hood",
+        "start": 10,
+        "type": "value",
+        "value": "engine"
+      }
+    ]
+  },
+  "intents": [
+    {
+      "confidence": 0.9905,
+      "id": "200399844492202",
+      "name": "close"
+    }
+  ],
+  "text": "close the engine",
+  "traits": {}
+}
+
+Result: {
+  "entities": {},
+  "intents": [
+    {
+      "confidence": 0.5021,
+      "id": "200399844492202",
+      "name": "close"
+    }
+  ],
+  "text": "window",
+  "traits": {}
+}
+
+/////ideal resultsssssss------------**********************************************************
+Result: {
+  "WARNING": "DEPRECATED",
+  "_text": "open the drivers door",
+  "entities": {
+    "open": [
+      {
+        "confidence": 1,
+        "type": "value",
+        "value": "bonnet"
+      },
+      {
+        "confidence": 0.99322528166842,
+        "type": "value",
+        "value": "drivers door"
+      }
+    ]
+  },
+  "msg_id": "1EWQLusoBfyLwi6Z5"
+}
+
